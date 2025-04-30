@@ -1,6 +1,7 @@
 # 🎟️ QR Event Check-In System
 
-![Project Banner](https://user-images.githubusercontent.com/14985082/123456789-abc12345-d5e6-4f78-9b2e-9876543210ab.png)
+![Project Banner]![deepseek_mermaid_20250430_e4f7d4](https://github.com/user-attachments/assets/b6b4aa34-0d86-4b2a-9771-bd7a6ea3d1c0)
+
 
 A complete solution for digital event management with QR code check-in functionality. Perfect for college events, conferences, and meetups.
 
