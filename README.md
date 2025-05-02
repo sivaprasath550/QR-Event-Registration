@@ -22,13 +22,13 @@ A complete solution for digital event management with QR code check-in functiona
 - **Offline Mode**: Cached verification for poor connectivity
 
 ### Data Flow
--Registration Phase:
+- **Registration Phase**:
  Attendee submits details → API generates encrypted QR → Stores in DB → Emails ticket
 
--Check-In Phase:
+- **Check-In Phase**:
 Staff scans QR → API decrypts → Validates against Redis → Updates attendance records
 
--Reporting Phase:
+- **Reporting Phase**:
 Nightly cron jobs aggregate data → Generate insights → Email organizers
 
 
