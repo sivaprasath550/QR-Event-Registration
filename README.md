@@ -12,29 +12,12 @@ A complete solution for digital event management with QR code check-in functiona
 - **Automated Emails**: QR codes delivered straight to attendees' inboxes
 - **Export Data**: Download attendee lists in CSV/JSON formats
 
-- ### Advanced Capabilities
+ ### Advanced Capabilities
 - **Bulk Import**: CSV upload for mass registrations
 - **Geo-Verification**: Optional location validation (+/- 50m accuracy)
 - **Duplication Prevention**: SHA-256 hashed check-in tokens
 - **Offline Mode**: Cached verification for poor connectivity
 
-## 🛠 Tech Stack
-
-### Frontend
-| Technology | Purpose | Version |
-|------------|---------|---------|
-| React 18 | Core framework | ^18.2.0 |
-| Material UI | Component library | ^5.11.12 |
-| jsQR | QR decoding | ^1.4.0 |
-| Chart.js | Analytics visualization | ^4.3.0 |
-
-### Backend
-| Technology | Purpose | Version |
-|------------|---------|---------|
-| Node.js | Runtime | 18.x |
-| Express | API framework | ^4.18.2 |
-| Mongoose | ODM for MongoDB | ^7.4.3 |
-| JWT | Authentication | ^9.0.1 |
 
 
 ## 🛠 Tech Stack
