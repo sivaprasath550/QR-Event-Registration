@@ -1,4 +1,7 @@
 # 🎟️ QR Event Check-In System
+
+> A robust, full-stack solution for modern event management featuring secure QR-based attendee verification, real-time analytics, and automated administration tools.
+
 ![deepseek_mermaid_20250430_e4f7d4](https://github.com/user-attachments/assets/b6b4aa34-0d86-4b2a-9771-bd7a6ea3d1c0)
 
 
@@ -17,6 +20,16 @@ A complete solution for digital event management with QR code check-in functiona
 - **Geo-Verification**: Optional location validation (+/- 50m accuracy)
 - **Duplication Prevention**: SHA-256 hashed check-in tokens
 - **Offline Mode**: Cached verification for poor connectivity
+
+### Data Flow
+-Registration Phase:
+ Attendee submits details → API generates encrypted QR → Stores in DB → Emails ticket
+
+-Check-In Phase:
+Staff scans QR → API decrypts → Validates against Redis → Updates attendance records
+
+-Reporting Phase:
+Nightly cron jobs aggregate data → Generate insights → Email organizers
 
 
 
